@@ -1,3 +1,22 @@
+## Api Challenge
+This was fun :) building an API in 20 minutes
+
+## Prequisites
+- Docker and Docker compose
+
+## Clone the repository
+```bash
+git clone https://github.com/DanNduati/Api_challenge.git
+```
+## Running with docker compose
+```bash
+cd Api_challenge/
+docker compose up --build -d
+```
+Navigate to the `/docs` endpoint to interact with the API interactively
+```bash
+http://0.0.0.0:8000/docs
+```
 ## Overview
 You are provided with a JSON file `[customer.json]` available on this repository that represents an object. You will be in a race with your peers to deliver a working HATEOAS compliant API which allows CRUD operation on that object. 
 
